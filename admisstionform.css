@@ -216,3 +216,57 @@ form {
         opacity: 1;
     }
 }
+
+
+@media (max-width: 992px),
+       (max-width: 768px),
+       (max-width: 576px) {
+
+    form {
+        width: 95%;
+    }
+
+    .form-body {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .form-left {
+        width: 65%;
+    }
+
+    .form-right {
+        width: 30%;
+        margin-top: 40px;
+    }
+
+    .form-left input {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .form-header {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .form-header h1 {
+        font-size: 45px;
+    }
+
+    .form-subtitle {
+        font-size: 18px;
+    }
+
+    .courses-btn {
+        font-size: 22px;
+        padding: 6px 25px;
+    }
+
+    .form-right img {
+        width: 140px;
+    }
+}
