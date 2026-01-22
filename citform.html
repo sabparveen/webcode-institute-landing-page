@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CIT Admission Form</title>
+    <link rel="stylesheet" href="./admisstionform.css">
+</head>
+
+<body>
+    <form>
+                <input type="checkbox" id="modalToggle" hidden>
+
+
+        <button class="visit-website-btn">
+            <a href="/index.html" class="btn-visit">Visited Website</a>
+        </button>
+
+        <div class="form-header">
+            <h1>WEBCODE</h1>
+            <div class="form-subtitle">
+                INSTITUTE OF IT AND <br> ENGLISH LANGUAGE
+            </div>
+        </div>
+
+        <button class="form-title-btn">ADMISSION FORM</button>
+
+        <div class="form-body">
+
+            <div class="form-left">
+
+                <h4>Name</h4>
+                <input type="text" placeholder="Enter your name">
+
+                <h4>F/Name</h4>
+                <input type="text" placeholder="Enter your father name">
+
+                <h4>SurName</h4>
+                <input type="text" placeholder="Enter your Surname">
+
+                <h4>Gender</h4>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                </div>
+
+               <h4>Contact No</h4>
+                <input type="text" placeholder="+92-000000000">
+
+                <h4>Parent's Contact</h4>
+                <input type="text" placeholder="+92-000000000">
+
+                <h4>Qualification</h4>
+                <input type="text" placeholder="Enter your Qualification">
+
+                <h4>Parent's Occupation</h4>
+                <input type="text" placeholder="Parent's Occupation">
+
+                <h4>Address</h4>
+                <input type="text" placeholder="Address">
+
+
+            </div>
+
+            <div class="form-right">
+                <img src="./images/profileimg.jfif" alt="Profile Image">
+
+                <button class="courses-btn">Courses</button>
+
+                <div class="course-option">
+                    <h4>DIT</h4>
+                    <input type="radio" name="course">
+                </div>
+
+                <div class="course-option">
+                    <h4>CIT</h4>
+                    <input type="radio" name="course" checked>
+                </div>
+
+                <div class="course-option">
+                    <h4>OAT</h4>
+                    <input type="radio" name="course">
+                </div>
+
+               
+
+
+
+
+            </div>
+
+        </div>
+
+
+         
+        <label for="modalToggle" class="submit-btn">
+            Submit
+        </label>
+
+
+        <div class="modal">
+            <div class="modal-box">
+                <label for="modalToggle" class="close-btn">✖</label>
+                <h2>Form Submitted</h2>
+                <p>Your admission form has been submitted successfully.</p>
+                <center><button style="font-size: 23px;" class="visit-website-btn">
+                        Save </button></center>
+
+            </div>
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>
